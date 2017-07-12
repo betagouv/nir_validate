@@ -1,6 +1,6 @@
 {
   "name": "nir_validate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Validation API for the french NIR",
   "main": "src/index.js",
   "author": "Florian Delezenne <del.florian@gmail.com>",
