@@ -44,6 +44,4 @@ function validate(input, options = {}) {
   return computedKey == key;
 }
 
-module.exports = {
-  validate
-};
+module.exports = validate;

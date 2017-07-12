@@ -7,31 +7,29 @@ Parse and validate the french NIR, based on the [wikipedia definition](https://f
 
 ## Install
 ```
-$ npm install nirpp_utils
+$ npm install nir_validate
 ```
 
 ## Usage
-
-### Validation
 ```js
-const nirpp_validate = require('nirpp_utils');
+const validate = require('nir_validate');
 
-nirpp_utils.validate('255081416802538');
+validate('255081416802538');
 // => true
 
-nirpp_utils.validate('255081416802539');
+validate('255081416802539');
 // => false
 
-nirpp_utils.validate('2 55 08 14 168 025 38');
+validate('2 55 08 14 168 025 38');
 // => true
 ```
 
-#### Options
+### Options
 
 * shouldClean - set this to `false` to become white-space and case sensitive
 
 
 ```js
-nirpp_utils.validate('2 55 08 14 168 025 38', {shoudlClean: false});
+validate('2 55 08 14 168 025 38', {shoudlClean: false});
 // => false
 ```
