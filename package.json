@@ -1,6 +1,6 @@
 {
   "name": "nir_validate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validation API for the french NIR",
   "main": "src/index.js",
   "author": "Florian Delezenne <del.florian@gmail.com>",
@@ -21,10 +21,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sgmap/validate-nir.git"
+    "url": "https://github.com/sgmap/nir_validate.git"
   },
   "bugs": {
-    "url": "https://github.com/sgmap/validate-nir/issues"
+    "url": "https://github.com/sgmap/nir_validate/issues"
   },
   "scripts": {
     "test": "mocha --reporter spec test/"
