@@ -1,0 +1,32 @@
+{
+  "name": "nir_validate",
+  "version": "1.0.0",
+  "description": "Validation API for the french NIR",
+  "main": "src/index.js",
+  "author": "Florian Delezenne <del.florian@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "nir",
+    "nirpp",
+    "securite sociale",
+    "numéro d'inscription au répertoire",
+    "numéro d'inscription au répertoire des personnes physiques",
+    "numéro de sécurité sociale",
+    "france",
+    "french"
+  ],
+  "dependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sgmap/validate-nir.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sgmap/validate-nir/issues"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test/"
+  }
+}
