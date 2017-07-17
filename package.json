@@ -19,6 +19,9 @@
     "chai": "^4.1.0",
     "mocha": "^3.4.2"
   },
+  "devDependencies": {
+    "babel-register": "^6.24.1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/sgmap/nir_validate.git"
@@ -27,6 +30,6 @@
     "url": "https://github.com/sgmap/nir_validate/issues"
   },
   "scripts": {
-    "test": "mocha --harmony --reporter spec test/"
+    "test": "mocha --compilers js:babel-register --reporter spec test/"
   }
 }
