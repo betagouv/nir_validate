@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const validate = require('../index.js').validate;
+const validate = require('../index.js');
 
 
 describe('NIRPP Validator', () => {

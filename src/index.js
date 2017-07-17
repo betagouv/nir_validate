@@ -20,7 +20,7 @@ function handleSpecialCodes(nirpp) {
 }
 
 function parse(nirpp) {
-  const { withoutLetters, offset } = handleCorsica(nirpp);
+  const { withoutLetters, offset } = handleSpecialCodes(nirpp);
   return parseInt(withoutLetters) - offset;
 }
 
